@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Registration</title>
+
+	<style type="text/css">
+		body{
+			text-align: center;
+			background-color: lightblue;
+			font-size: 40px;
+			width: 700px;
+			height: 700px;
+			border: 2px dotted black;
+			border-radius: 20px;
+			padding-bottom: 20px;
+			margin-left: 300px;
+		}
+
+		::placeholder{
+			font-style: italic;
+		}
+
+		h1{
+			color: red;
+		}
+
+		label, span{
+			color: brown;
+		}
+
+		button{
+			color: tomato;
+		}
+
+		button:hover{
+			background-color: darkviolet;
+		}
+	</style>
+</head>
+<body>
+	<h1>Register</h1>
+
+	<form>
+		<div id="Firstname">
+			<label>First Name</label>
+			<br>
+			<input type="text" name="Firstname" placeholder="Firstname">
+	    </div>
+
+        <div id="Lastname">
+			<label>Lastname</label>
+			<br>
+			<input type="text" name="Lastname" placeholder="Lastname">
+	    </div>
+
+        <div id="Email">
+			<label>Email</label>
+			<br>
+			<input type="Email" name="Email" placeholder="Email">
+	    </div>
+
+	    <div id="Phone">
+	    	<label>Phone</label>
+	    	<br>
+	    	<input type="Number" name="Phone" placeholder="Phone">
+	    </div>
+
+	    <div id="gender">
+	    	<label>Gender</label>
+	    	<br>
+	    	<span>
+	    		<input type="radio" name="gender">Male
+	    	</span>
+
+	    	<span>
+	    		<input type="radio" name="gender">Female
+	    	</span>
+
+            <span>
+            	<input type="radio" name="gender">Other
+            </span>
+	    </div>
+
+	    <div id="Register">
+	    	<button>Register</button>
+	    </div>
+	    
+	</form>
+
+</body>
+</html>
